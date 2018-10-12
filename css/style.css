@@ -100,6 +100,7 @@ img{
 	width: 80%;
     display: block;
     margin: 0 auto;
+    padding: 1px;
 }
 
 .port-h3{
@@ -113,6 +114,39 @@ img{
     font-size: .9rem;
     line-height: 1.2rem;
 }
+
+/* --------------------------skills styles--------------------------------------------*/
+
+.skill{
+	background-color: #36ACD0;
+	padding-bottom: 20px;
+}
+.skill-img{
+	width: 70%;
+	padding: 30px 0 2px;
+}
+.skill-list{
+	text-align: center;
+	padding: 0;
+	}
+
+.skill-list li{
+	color: white;
+	padding: 3px;
+}
+#head-skill{
+	text-align: center;
+	padding: 15px 0;
+	color: #fff;
+    text-transform: uppercase;
+}
+#p-skills{
+	color: #fff;
+	padding: 10px 20px;
+	text-align: center;
+	font-family: 'Rokkitt', serif;
+}
+
 
 /* --------------------------contact styles--------------------------------------------*/
 h4{
@@ -157,8 +191,6 @@ hr{
 }
 
 
-
-}
 .foot li{
 	font-size: .8rem;
 	color: #757474;
@@ -208,7 +240,7 @@ hr{
 	display: inline-block;
 }
 .profile p {
-     padding-left: 1%; 
+    padding-left: 1%; 
     text-align: left;
     font-size: 1.3rem;
     line-height: 2rem;
@@ -247,7 +279,21 @@ h4{
     padding-bottom: 40px;
     padding-right: 40px;
 }
+.skill{
+	display: inline-block;
+	width: 100%;
+}
+.skill-img{
 
+	float: left;
+	width: 40%;
+	padding: 0 3% 5%;
+}
+
+#p-skills{
+	padding-top: 5%;
+	font-size: 1.2rem;
+}
 
 
 }
@@ -256,7 +302,6 @@ h4{
 @media (min-width: 1024px){
 	.page{
 		max-width: 95%;
-		width: 0 auto;
 	}
 	.nav-bar li{
 		padding: 0;
@@ -273,6 +318,11 @@ h4{
 	.nav-bar li{
 
 		    margin-right: 20px;
+	}
+
+	.nav-bar a:hover{
+		color: white;
+		background-color: #F78460;
 	}
 	.col{
 
@@ -293,6 +343,13 @@ h4{
 	.col p{
 		padding-bottom: 45px;
 	}
+	.skill-img{
+		width: 50%;
+	}
+	#p-skills{
+	padding-top: 7%;
+	font-size: 1.4rem;
+}
 
 
 }

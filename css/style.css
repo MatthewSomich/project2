@@ -46,6 +46,9 @@ a:visited{
 .main{
 	background-color: #fff;
 }
+.nav{
+	display: inline-block;
+}
 
 
 /*-------------------------------header/nav styles------------------------------------------*/
@@ -303,16 +306,24 @@ h4{
 	.page{
 		max-width: 95%;
 	}
+	nav{
+		padding-bottom: 50px;
+		width: 50%;
+		float: right;
+	}
+
+
 	.nav-bar li{
 		padding: 0;
 	}
 	.nav-bar,
 	#top{
 		display: inline-block;
-		padding: 0 .4em;
+		padding: 5px .4em 0;
 	}
 	.nav-bar{
 		float: right;
+		padding-top: 15px;
 	}
 
 	.nav-bar li{
